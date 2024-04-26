@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-cloning-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deve":"tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "tailwindcss": "^3.4.3",
+  "dependencies": {
+    "deve": "^0.0.0"
+  }
+}
