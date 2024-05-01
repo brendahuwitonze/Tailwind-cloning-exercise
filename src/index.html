@@ -1,89 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="/src/output.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/src/output.css" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="bg-inherit">
-        <div class= "container mx-auto flex w-full items-center justify-center ">
-          <div class="relative flex h-16 items-center justify-between">
-            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <div class="flex">
-                <img class="h-7 " src="/img/log.png" alt="Your Company">
-              </div>
-                <div class="flex space-x-4 ml-10 ps-20">
-                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <a href="#" class="text-stone-950  rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
-                  <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">About</a>
-                  <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">Price</a>
-                  <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">product</a>
-                </div>
-            </div>
-            <div class="flex items-center pr-2 mb-3 ml-20 ">
-              <!-- Profile dropdown -->
-              <div class="mt-4">
-                <a  class ="mr-4">Sign In</a>
-                <button class=" rounded-xl border border-pink-500 w-32  text-red-500">Search</button>
-                </div>
-        </div>
+  <nav class="bg-inherit">
+    <div class="container mx-auto flex w-full items-center justify-center ">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex">
+            <img class="h-7 " src="/img/log.png" alt="Your Company">
+          </div>
+          <div class="flex space-x-4 ml-10 ps-20">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="#" class="text-stone-950  rounded-md px-3 py-2 text-sm font-medium"
+              aria-current="page">Dashboard</a>
+            <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">About</a>
+            <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">Price</a>
+            <a href="#" class="text-stone-950 rounded-md px-3 py-2 text-sm font-medium">product</a>
           </div>
         </div>
-      </nav> 
-      <!-- //body -->
-      <div class="md:container md:mx-auto sm:mx-auto sm:container lg:mx-auto  lg:container xl:mx-auto xl:container">
-      <div class="flex flex-row">
-                <div class="py-12 max-w-md mx-auto">
-                <h1 class="mt-6 text-2xl font-bold text-gray-900 ">
-                    Want anything to be easy with LaslesVPN
-            </h1>
-            <p class="mt-6 text-gray-600 sm:text-xl sm:mt-4">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us..</p>
-            <div class="mt-4">
-            <a class="inline-block px-5 py-3 rounded-lg shadow-lg bg-red-700
-            text-white uppercase" href="#">Get started</a>
-            </div>
-           </div>
-           <div class=" pr-20 py-12 ml-10 max-w-md mx-auto">
-        <img class="mt-6 rounded-1 shadow-xl"src="/img/techPerson.png" alt="student">
+        <div class="flex items-center pr-2 mb-3 ml-20 ">
+          <!-- Profile dropdown -->
+          <div class="mt-4">
+            <a class="mr-4">Sign In</a>
+            <button class=" rounded-xl border border-pink-500 w-32  text-red-500">Search</button>
+          </div>
+        </div>
+      </div>
     </div>
+  </nav>
+  <!-- //body -->
+  <div class="md:container md:mx-auto sm:mx-auto sm:container lg:mx-auto  lg:container xl:mx-auto xl:container">
+    <div class="bg-gray-10 flex flex-row">
+      <div class="py-12 max-w-md mx-auto">
+        <h1 class="mt-6 text-2xl font-bold text-gray-900 ">
+          Want anything to be easy with LaslesVPN
+        </h1>
+        <p class="mt-6 text-gray-600 sm:text-xl sm:mt-4">Provide a network for all your needs with ease and fun using
+          LaslesVPN discover interesting features from us..</p>
+        <div class="mt-4">
+          <a class="inline-block px-5 py-3 rounded-lg shadow-lg bg-red-700
+              text-white uppercase" href="#">Get started</a>
+        </div>
+      </div>
+      <div class=" pr-20 py-12 ml-10 max-w-md mx-auto">
+        <img class="mt-6 rounded-1 shadow-xl" src="/img/techPerson.png" alt="student">
+      </div>
     </div>
-    <div class="flex flex-row space-x-20 justify-center mt-10 ">
-      <img class="h-10" src="/img/contact.png" alt="">
-      <span>90+ <br>Users</span>
-      <img  class = "h-10" src="/img/icon.png" alt="">
-      <span>78+ <br>Location</span>
-      <img class="h-10" src="/img/location.png" alt="">
-      <span>78+ <br>Servers</span>
+  
+    <!-- icons  -->
+    <div class="grid grid-cols-3 md:grid-cols-3  py-20">
+      <div class="b flex flex-row space-x-2">
+        <img class="h-10" src="/img/contact.png" alt="">
+        <p class="font-bold">90+ <br>Users</p>
+      </div>
+      <div class="flex flex-row space-x-2 ">
+        <img class="h-10" src="/img/location.png" alt="">
+        <p class="font-bold">30+ <br>location</p>
+      </div>
+      <div class="flex flex-row space-x-2">
+        <img class="h-10" src="/img/icon.png" alt="">
+        <p class="font-bold">50+ <br>Servers</p>
+      </div>
     </div>
     <!-- Third section -->
-    <div class="flex  flex-row justify-center items-center">
-      <div class="pr-20 py-12 ml-10 max-w-md mx-auto " >
+    <div class=" grid grid-cols-2">
+      <div class="pr-20 py-12 ml-10 max-w-md mx-auto ">
         <img class="mt-6 rounded-1  object-center" src="/img/Admin.png" alt="">
       </div>
       <div class="py-12 max-w-md mx-auto pt-10">
-       <h1 class="mt-6 text-2xl font-bold text-gray-900"> We Provide Many Features You Can Use</h2>
-       <p class="mt-6 text-gray-600">You can explore the features that we provide with fun and have their own functions each feature.</p>
-       <ul>
-        <li>Powerfull online protection.</li>
-        <li>Internet without borders.</li>
-        <li>Supercharged VPN</li>
-        <li>No specific time limits.</li>
-       </ul>
+        <h1 class="mt-6 text-2xl font-bold text-gray-900"> We Provide Many Features You Can Use</h2>
+          <p class="mt-6 text-gray-600">You can explore the features that we provide with fun and have their own
+            functions each feature.</p>
+          <div class=" space-y-4">
+            <div class="flex flex-row pt-5">
+              <img class="h-5" src="/img/ticks.png" alt="">
+              <p class="">Powerfull online protection</p>
+            </div>
+            <div class="flex flex-row">
+              <img class="h-5" src="/img/ticks.png" alt="">
+              <p class="">Internet without borders</p>
+            </div>
+            <div class="flex flex-row">
+              <img class="h-5" src="/img/ticks.png" alt="">
+              <p class="">Supercharged VPN</p>
+            </div>
+            <div class="flex flex-row">
+              <img class="h-5" src="/img/ticks.png" alt="">
+              <p class="">No specific time limits</p>
+            </div>
+          </div>
       </div>
     </div>
     <!-- //last section on first page -->
-    <h1 class="text-center font-bold justify-center">Choose your plan</h1>
+    <h1 class="text-center font-bold justify-center py-8">Choose your plan</h1>
     <p class="text-center ">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
-    <div class="flex flex-row">
-      <img src="/img/Product.png" alt="">
-      <span>Free Plan</span>
-      <img src="/img/Product.png" alt="">
-      <span>Standard plan</span>
-      <img src="/img/Product.png" alt="">
-      <span>premium knowledge</span>
+    <div class=" grid grid-cols-3 justify-center space-x-8 py-10">
+      <div class="border border-slate-200">
+        <img class="ml-18" src="/img/Product.png" alt="">
+        <h1 class="ml-36 py-10">free plan</h1>
+      </div>
+      <div class="border border-slate-300">
+        <img class="ml-18" src="/img/Product.png" alt="">
+        <h1 class="ml-36 py-10">standard plan</h1>
+      </div>
+      <div class="border border-slate-600">
+        <img class="ml-20" src="/img/Product.png" alt="">
+        <h1 class="ml-36 py-10">premium Plan</h1>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>
